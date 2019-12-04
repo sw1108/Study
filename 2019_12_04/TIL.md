@@ -18,3 +18,16 @@ document.getElementById('clickMe').addEventListener('click', onClick); // 이벤
 ```
 
 > 이벤트가 실행됐을 때 사용자에게 다시 알려준다.
+
+
+- onclick 시 
+```
+<input type="button" class="btn_1"
+onclick="upload_btn(${loginMap.member_id})" value="사진 등록" />
+```
+- 이거처럼 하면 인식을 못하길래 삽질했다
+```
+<input type="button" class="btn_1"
+onclick="upload_btn('${loginMap.member_id}')" value="사진 등록" />
+```
+-  '' 를 붙여줘서 변수로 만들어줘서 해결
