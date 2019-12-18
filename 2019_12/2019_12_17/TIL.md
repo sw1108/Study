@@ -21,5 +21,5 @@
 |boolean offer(Object o)|큐에 객체를 저장한다|
 |Object peek()|삭제없이 읽어 온다|
 |Object poll()|큐에서 꺼내온다. 비었을 때  null반환|
-||Object remove()|큐에서 꺼내온다. 비었을 때 Exception 발생|
+|Object remove()|큐에서 꺼내온다. 비었을 때 Exception 발생|
 
